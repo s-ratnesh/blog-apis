@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.lpu.blog.payloads.CategoryDto;
 import com.lpu.blog.services.CategoryService;
-
+// ratnesh
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {
@@ -27,7 +27,4 @@ public class CategoryController {
 		
 		
 	}
-//	update
-	public ResponseEntity<CategoryDto> updateCategory(@RequestBody)
-
 }
